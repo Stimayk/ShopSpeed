@@ -41,7 +41,7 @@ namespace ShopSpeed
         {
             if (JsonSpeed == null || SHOP_API == null) return;
 
-            SHOP_API.CreateCategory(CategoryName, "Ñêîðîñòü");
+            SHOP_API.CreateCategory(CategoryName, "CÐºÐ¾Ñ€Ð¾ÑÑ‚ÑŒ");
 
             foreach (var item in JsonSpeed.Properties().Where(p => p.Value is JObject))
             {
